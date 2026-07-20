@@ -1,0 +1,31 @@
+شروع کار — KANZ AL WADI WEBSITE V1
+
+این نسخه برای شروع طراحی شده و بدون شماره واتس‌اپ، تلفن، لوگوی نهایی و پروژه‌های واقعی قابل انتشار است.
+
+کارهایی که الان باید انجام بدهید:
+
+1) فایل ZIP را Extract کنید.
+2) فایل index.html را دوبار کلیک کنید و سایت را در Chrome ببینید.
+3) در GitHub وارد Repository زیر شوید:
+   kanz-al-wadi-website
+4) روی Add file بزنید.
+5) Upload files را انتخاب کنید.
+6) تمام فایل‌ها و پوشه‌های داخل این پکیج را آپلود کنید.
+   خود فایل ZIP را آپلود نکنید.
+7) پایین صفحه در Commit message بنویسید:
+   Upload website version 1
+8) روی Commit changes بزنید.
+
+پس از آپلود:
+1) وارد Settings شوید.
+2) از منوی سمت چپ Pages را باز کنید.
+3) Source را روی Deploy from a branch بگذارید.
+4) Branch را main انتخاب کنید.
+5) Folder را / (root) انتخاب کنید.
+6) Save را بزنید.
+
+آدرس سایت معمولاً به این شکل خواهد بود:
+https://sarvin-ai.github.io/kanz-al-wadi-website/
+
+فعلاً config.js را تغییر ندهید.
+وقتی ایمیل شرکت آماده شد، مقدار email داخل config.js اضافه می‌شود.

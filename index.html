@@ -1,92 +1,101 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="KANZ AL WADI Management Consultant L.L.C. provides engineering consultancy, project management and digital solutions in the UAE." />
-  <meta name="theme-color" content="#0B2E4F" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="KANZ AL WADI Management Consultant L.L.C. — engineering consultancy, project management and digital solutions in Dubai, UAE.">
+  <meta name="theme-color" content="#0b2340">
+  <meta property="og:title" content="KANZ AL WADI | Design. Manage. Deliver.">
+  <meta property="og:description" content="Engineering consultancy, project management and digital solutions for the built environment.">
+  <meta property="og:type" content="website">
   <title>KANZ AL WADI | Engineering Consultancy & Project Management</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#home" aria-label="KANZ AL WADI home">
-        <span class="brand-mark">K</span>
-        <span class="brand-text">
-          <strong>KANZ AL WADI</strong>
-          <small>Management Consultant L.L.C.</small>
-        </span>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="container nav-shell">
+      <a class="brand" href="#top" aria-label="KANZ AL WADI home">
+        <span class="brand-symbol" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="brand-copy"><strong>KANZ AL WADI</strong><small>Management Consultant L.L.C.</small></span>
       </a>
-      <button class="menu-button" aria-label="Open menu" aria-expanded="false">Menu</button>
-      <nav class="main-nav" aria-label="Primary navigation">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span><b>Menu</b></button>
+      <nav class="main-nav" id="main-nav" aria-label="Primary navigation">
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#experience">Experience</a>
         <a href="#digital">Digital</a>
-        <a class="nav-cta" href="#contact">Contact</a>
+        <a class="nav-contact" href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-overlay"></div>
-      <div class="container hero-content">
-        <p class="eyebrow">Engineering Consultancy · Project Management · Digital Solutions</p>
-        <h1>Design.<br>Manage.<br><span>Deliver.</span></h1>
-        <p class="hero-copy">Integrated consultancy and project delivery support for the built environment in the UAE.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#services">Explore Services</a>
-          <a class="button secondary" href="#contact">Contact Us</a>
-        </div>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-grid"></div>
+        <div class="tower tower-a"></div><div class="tower tower-b"></div><div class="tower tower-c"></div><div class="tower tower-d"></div>
+        <div class="hero-line line-one"></div><div class="hero-line line-two"></div>
       </div>
-      <div class="hero-index">01 / KANZ AL WADI</div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Dubai · United Arab Emirates</p>
+          <h1>Design.<br>Manage.<br><span>Deliver.</span></h1>
+          <p class="hero-summary">Integrated engineering consultancy, project management and digital solutions for the built environment.</p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#services">Explore services <span>↗</span></a>
+            <a class="button button-ghost" href="#contact">Start a conversation</a>
+          </div>
+        </div>
+        <aside class="hero-note">
+          <span>01</span>
+          <p>A consultancy platform built around disciplined delivery, clear reporting and practical digital capability.</p>
+        </aside>
+      </div>
+      <div class="hero-scroll">Scroll to explore <i></i></div>
     </section>
 
     <section class="section intro" id="about">
-      <div class="container split-grid">
+      <div class="container intro-grid reveal">
         <div>
-          <p class="section-label">About</p>
-          <h2>Built around clear thinking and disciplined delivery.</h2>
+          <p class="section-kicker">About KANZ AL WADI</p>
+          <h2>Clarity from concept to delivery.</h2>
         </div>
-        <div class="intro-copy">
-          <p>KANZ AL WADI Management Consultant L.L.C. is a Dubai-based consultancy focused on engineering, project management and digital enablement.</p>
-          <p>Our approach combines technical coordination, project controls and practical reporting to support better decisions throughout the project lifecycle.</p>
+        <div class="intro-text">
+          <p class="lead">KANZ AL WADI Management Consultant L.L.C. is a Dubai-based consultancy focused on engineering coordination, project management, project controls and digital enablement.</p>
+          <p>Our structure is intentionally multidisciplinary. Design, planning, reporting and technology are treated as connected parts of project delivery—not as isolated services.</p>
+          <a class="text-link" href="#approach">Our delivery approach <span>→</span></a>
         </div>
       </div>
     </section>
 
     <section class="section services" id="services">
       <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="section-label">Core Services</p>
-            <h2>Three connected capabilities.</h2>
-          </div>
-          <p>Services are presented clearly and can be expanded as the company portfolio develops.</p>
+        <div class="section-head reveal">
+          <div><p class="section-kicker">Core capabilities</p><h2>One consultancy.<br>Three connected disciplines.</h2></div>
+          <p>Each service line can grow as the company portfolio develops, without changing the structure or identity of the website.</p>
         </div>
-        <div class="service-grid">
-          <article class="service-card">
-            <span class="service-number">01</span>
-            <h3>Engineering Consultancy</h3>
-            <p>Architecture, multidisciplinary design coordination, technical documentation, BOQ, tender support and construction-stage consultancy.</p>
-            <a href="#contact">Discuss a design requirement</a>
+        <div class="service-stack">
+          <article class="service-row reveal">
+            <div class="service-index">01</div>
+            <div class="service-title"><h3>Engineering Consultancy</h3><p>Design and technical coordination across the project lifecycle.</p></div>
+            <ul><li>Architecture & multidisciplinary coordination</li><li>Technical documentation & specifications</li><li>BOQ, tender and construction support</li></ul>
+            <a href="#contact" aria-label="Discuss engineering consultancy">↗</a>
           </article>
-          <article class="service-card featured">
-            <span class="service-number">02</span>
-            <h3>Project Management</h3>
-            <p>Project management, planning, scheduling, project controls, cost and risk monitoring, PMO support and executive reporting.</p>
-            <a href="#contact">Discuss a project requirement</a>
+          <article class="service-row reveal featured-service">
+            <div class="service-index">02</div>
+            <div class="service-title"><h3>Project Management</h3><p>Structured planning, controls and reporting focused on delivery.</p></div>
+            <ul><li>Project and programme management</li><li>Planning, scheduling & project controls</li><li>Cost, risk, change, PMO & executive reporting</li></ul>
+            <a href="#contact" aria-label="Discuss project management">↗</a>
           </article>
-          <article class="service-card">
-            <span class="service-number">03</span>
-            <h3>Digital Solutions</h3>
-            <p>Power BI reporting, workflow automation, intelligent document review and practical AI-enabled tools supporting consultancy delivery.</p>
-            <a href="#digital">Explore digital capability</a>
+          <article class="service-row reveal">
+            <div class="service-index">03</div>
+            <div class="service-title"><h3>Digital Solutions</h3><p>Practical technology supporting consultancy and decision-making.</p></div>
+            <ul><li>Power BI dashboards & reporting systems</li><li>Workflow and document automation</li><li>AI-enabled tools and custom assistants</li></ul>
+            <a href="#digital" aria-label="Explore digital solutions">↗</a>
           </article>
         </div>
       </div>
@@ -94,96 +103,74 @@
 
     <section class="section experience" id="experience">
       <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="section-label">Selected Experience</p>
-            <h2>Experience across the built environment.</h2>
-          </div>
-          <p>Individual project case studies will be added only when approved information and images are available.</p>
+        <div class="section-head reveal">
+          <div><p class="section-kicker">Sector focus</p><h2>Built-environment sectors.</h2></div>
+          <p>Our consultancy structure is designed to support a focused range of building and infrastructure sectors as the portfolio develops.</p>
         </div>
-        <div class="experience-grid">
-          <article class="experience-item">
-            <img src="assets/images/residential.svg" alt="Abstract residential development illustration" />
-            <div><span>Residential</span><h3>Residential & Villa Developments</h3></div>
-          </article>
-          <article class="experience-item">
-            <img src="assets/images/commercial.svg" alt="Abstract commercial building illustration" />
-            <div><span>Commercial</span><h3>Commercial & Mixed-use Projects</h3></div>
-          </article>
-          <article class="experience-item">
-            <img src="assets/images/infrastructure.svg" alt="Abstract infrastructure illustration" />
-            <div><span>Infrastructure</span><h3>Infrastructure & Public Realm</h3></div>
-          </article>
+        <div class="sector-grid">
+          <article class="sector-card reveal"><img src="assets/images/residential.svg" alt="Abstract illustration representing residential developments"><div><span>01 · Residential</span><h3>Residential & Villa Developments</h3><p>Design coordination, planning and project delivery support.</p></div></article>
+          <article class="sector-card reveal"><img src="assets/images/commercial.svg" alt="Abstract illustration representing commercial developments"><div><span>02 · Commercial</span><h3>Commercial & Mixed-use</h3><p>Multidisciplinary consultancy and management capability.</p></div></article>
+          <article class="sector-card reveal"><img src="assets/images/infrastructure.svg" alt="Abstract illustration representing infrastructure projects"><div><span>03 · Infrastructure</span><h3>Infrastructure & Public Realm</h3><p>Planning, coordination and project-controls support.</p></div></article>
         </div>
+        
       </div>
     </section>
 
-    <section class="section why">
+    <section class="section approach" id="approach">
       <div class="container">
-        <p class="section-label">Our Approach</p>
-        <div class="why-grid">
-          <div><strong>01</strong><h3>Integrated Thinking</h3><p>Design, management and reporting are considered as connected parts of one delivery system.</p></div>
-          <div><strong>02</strong><h3>Delivery Focus</h3><p>Clear scope, structured planning and practical controls keep attention on project outcomes.</p></div>
-          <div><strong>03</strong><h3>Digital Enablement</h3><p>Technology is used where it improves visibility, consistency and decision-making.</p></div>
-          <div><strong>04</strong><h3>Client Clarity</h3><p>Concise communication and transparent reporting support timely and informed decisions.</p></div>
+        <div class="approach-title reveal"><p class="section-kicker light">How we work</p><h2>Disciplined delivery.<br>Clear decisions.</h2></div>
+        <div class="approach-grid">
+          <article class="reveal"><span>01</span><h3>Understand</h3><p>Clarify scope, stakeholders, constraints and delivery priorities.</p></article>
+          <article class="reveal"><span>02</span><h3>Structure</h3><p>Translate objectives into coordinated plans, roles and controls.</p></article>
+          <article class="reveal"><span>03</span><h3>Monitor</h3><p>Maintain visibility through practical reporting and issue tracking.</p></article>
+          <article class="reveal"><span>04</span><h3>Improve</h3><p>Use lessons, data and technology to strengthen delivery outcomes.</p></article>
         </div>
       </div>
     </section>
 
     <section class="section digital" id="digital">
-      <div class="container digital-grid">
-        <div>
-          <p class="section-label light">Digital Capability</p>
-          <h2>Technology supporting consultancy delivery.</h2>
-          <p>Digital tools and AI are positioned as practical capabilities within the wider consultancy, helping teams manage information, reporting and repetitive workflows more effectively.</p>
+      <div class="container digital-layout">
+        <div class="digital-copy reveal">
+          <p class="section-kicker">Digital capability</p>
+          <h2>Technology supports the consultancy.</h2>
+          <p>Digital solutions and AI are integrated where they improve speed, consistency, visibility and decision-making. They support professional judgement; they do not replace it.</p>
+          <a class="text-link" href="#contact">Discuss a digital requirement <span>→</span></a>
         </div>
-        <div class="digital-list">
-          <div><span>01</span><strong>Power BI Dashboards</strong></div>
-          <div><span>02</span><strong>Executive Reporting</strong></div>
+        <div class="digital-panel reveal">
+          <div><span>01</span><strong>Power BI & Executive Dashboards</strong></div>
+          <div><span>02</span><strong>Project Reporting Systems</strong></div>
           <div><span>03</span><strong>Workflow Automation</strong></div>
           <div><span>04</span><strong>AI-enabled Review Tools</strong></div>
+          <div><span>05</span><strong>Custom Digital Products</strong></div>
         </div>
       </div>
     </section>
 
     <section class="section contact" id="contact">
-      <div class="container contact-grid">
+      <div class="container contact-layout reveal">
         <div>
-          <p class="section-label">Contact</p>
-          <h2>Let’s discuss your next project.</h2>
-          <p>The website is live while the company contact channels are being completed. Email and direct enquiry options can be added at any time.</p>
+          <p class="section-kicker light">Contact</p>
+          <h2>Let’s discuss<br>what comes next.</h2>
         </div>
-        <form class="contact-form" id="contactForm">
-          <label>Name<input type="text" name="name" required></label>
-          <label>Company<input type="text" name="company"></label>
-          <label>Email<input type="email" name="email" required></label>
-          <label>Service
-            <select name="service">
-              <option>Engineering Consultancy</option>
-              <option>Project Management</option>
-              <option>Digital Solutions</option>
-              <option>General Enquiry</option>
-            </select>
-          </label>
-          <label class="full">Message<textarea name="message" rows="5" required></textarea></label>
-          <button class="button primary full" type="submit">Prepare Email Enquiry</button>
-          <p class="form-note full">This opens the visitor’s email application. No server or paid form service is required.</p>
-        </form>
+        <div class="contact-copy">
+          <p>Official contact channels are currently being finalized. This section will be activated as soon as the company email and telephone details are confirmed.</p>
+          <div class="contact-status"><span></span><strong>Corporate website active</strong><small>Direct enquiries opening soon</small></div>
+          <a class="button button-light" href="#top">Back to top <span>↑</span></a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container footer-grid">
-      <div><strong>KANZ AL WADI</strong><p>Management Consultant L.L.C.</p></div>
-      <div><span>Location</span><p>Dubai, United Arab Emirates</p></div>
-      <div><span>Capabilities</span><p>Engineering · Project Management · Digital</p></div>
-      <div><span>Company</span><p>Website Version 1.0</p></div>
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#top"><span class="brand-symbol"><span></span><span></span><span></span></span><span class="brand-copy"><strong>KANZ AL WADI</strong><small>Management Consultant L.L.C.</small></span></a>
+      <div><span class="footer-label">Location</span><p>Dubai, United Arab Emirates</p></div>
+      <div><span class="footer-label">Capabilities</span><p>Engineering Consultancy<br>Project Management<br>Digital Solutions</p></div>
+      <div><span class="footer-label">Website</span><p>Corporate website<br>Direct enquiries opening soon</p></div>
     </div>
-    <div class="container footer-bottom">© <span id="year"></span> KANZ AL WADI Management Consultant L.L.C.</div>
+    <div class="container footer-bottom"><span>© <b id="year"></b> KANZ AL WADI Management Consultant L.L.C.</span><span>Dubai · United Arab Emirates</span></div>
   </footer>
 
-  <script src="config.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
